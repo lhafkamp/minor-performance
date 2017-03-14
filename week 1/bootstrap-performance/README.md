@@ -4,6 +4,8 @@
 - fontfaceobserver fallback for fonts
 - image compression with compression.io
 - defer
+- minified files
+- critical css
 
 ## Project setup
 
