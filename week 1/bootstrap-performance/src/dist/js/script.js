@@ -1,7 +1,1 @@
-const font = new FontFaceObserver('source_sans_pro');
-
-font.load().then(() => {
-  console.log('Font has loaded.');
-}).catch(() => {
-  console.log('Font failed to load.');
-});
+var font=new FontFaceObserver("source_sans_pro");font.load().then(function(){console.log("Font is available")},function(){console.log("Font is not available")});
