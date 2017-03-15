@@ -3,16 +3,14 @@
 <head>
     {% include './app-meta.html' %}
 
-    <link href="/dist/css/fonts.css" rel="stylesheet">
-    <link href="/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/src/docs.css" rel="stylesheet">
-
     <script src="/assets/js/vendor/jquery.min.js" defer></script>
     <script src="/dist/js/bootstrap.js" defer></script>
     <script src="/assets/js/docs.min.js" defer></script>
     <script src="/assets/js/ie10-viewport-bug-workaround.js" defer></script>
     <script src="/dist/js/fontfaceobserver.js" defer></script>
     <script src="/dist/js/script.js" defer></script>
+
+    <link href="/dist/css/critical.css" rel="stylesheet">
 
     {% block head_extra %}{% endblock %}
 </head>
@@ -22,5 +20,9 @@
     {% block body %}{% endblock %}
 
     {% block scripts_extra %}{% endblock %}
+
+    <link href="/dist/css/fonts.css" rel="stylesheet">
+    <link href="/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/src/docs.css" rel="stylesheet">
 </body>
 </html>
