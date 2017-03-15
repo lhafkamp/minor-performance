@@ -1,12 +1,5 @@
 # Performance matters
 
-## Improved:
-- fontfaceobserver fallback for fonts
-- image compression with compression.io
-- defer
-- minified files
-- critical css
-
 ## Project setup
 
 This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages). 
