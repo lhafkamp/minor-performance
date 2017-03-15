@@ -4,6 +4,7 @@ const path = require('path');
 const routeStatic = require('./lib/route-static');
 const redirectIndices = require('./lib/redirect-indices');
 const compression = require('compression');
+const critical = require('critical');
 
 const app = express();
 const baseDir = 'src';
@@ -14,6 +15,16 @@ app.use((req, res, next) => { res.removeHeader('X-Powered-By'); next(); });
 
 // gzip compression
 app.use(compression());
+
+// css critical
+critical.generate({
+    inline: true,
+    base: 'test/',
+    src: 'http://fa066619.ngrok.io',
+    dest: 'index-critical.html',
+    width: 1300,
+    height: 900
+});
 
 // static routes
 app.use(routeStatic);
