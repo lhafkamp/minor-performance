@@ -18,10 +18,9 @@ app.use(compression());
 
 // css critical
 critical.generate({
-    inline: true,
-    base: 'test/',
-    src: 'http://fa066619.ngrok.io',
-    dest: 'index-critical.html',
+    base: 'src/',
+    src: 'http://localhost:3004',
+    dest: 'dist/css/critical.css',
     width: 1300,
     height: 900
 });
