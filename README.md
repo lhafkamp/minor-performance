@@ -81,9 +81,11 @@ So we wen't from:
 And when comparing it in terms of seconds on a (very slow) 2G network:  
 
 <img src="screens/speedold.png">  
+
 From an excruciating 27 seconds  
   
 <img src="screens/speednew.png">  
+  
 To only 13 seconds!
 
 *Quite the improvement!*
