@@ -78,7 +78,13 @@ So we wen't from:
 **Mobile**  
 49/100 to 91/100  
 
-Quite the improvement!
+And when comparing it in terms of seconds on a (very slow) 2G network:  
+<img src="screens/speedold.png">  
+From an excruciating 27 seconds  
+<img src="screens/speednew.png">  
+To only 13 seconds!
+
+*Quite the improvement!*
 
 ## What would I've liked to do more?
 #### Minify the HTML
