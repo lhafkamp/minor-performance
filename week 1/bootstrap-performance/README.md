@@ -15,7 +15,7 @@ I used feature branches for every improvement I created. These features are merg
 ## The current speed
 <img src="./sceens/1rawdes.png">  
 Desktop - 48/100  
-<img src="screens/1rawmob.png">  
+<img src="./sceens/1rawmob.png">  
 Mobile - 49/100  
   
 *As you can see the speed isn't very optimal, I'm about to change that*
