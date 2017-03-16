@@ -17,7 +17,7 @@ I used feature branches for every improvement I created. These features are merg
 Desktop - 48/100  
 <img src="screens/1rawmob.png">  
 Mobile - 49/100  
-
+  
 *As you can see the speed isn't very optimal, I'm about to change that*
 
 ## Feature #1 - gzip
@@ -25,7 +25,7 @@ Mobile - 49/100
 Desktop - 58/100  
 <img src="screens/2gzipmob.png">  
 Mobile - 61/100  
-
+  
 *Gzip is already a huge improvement. Gzip makes sure that the files becomes 'zipped' like you would do on your computer, but instead of the computer these zip's go to the browser.*
 
 ## Feature #2 - critical css
@@ -33,7 +33,7 @@ Mobile - 61/100
 Desktop - 59/100  
 <img src="screens/3criticalmob.png">  
 Mobile - 67/100  
-
+  
 *Critical css loads the css that fills your viewport first so it can load the latter while you're still looking at the zero-state*
 
 ## Feature #3 - image compression
@@ -41,7 +41,7 @@ Mobile - 67/100
 Desktop - 93/100  
 <img src="screens/4imagemob.png">  
 Mobile - 89/100  
-
+  
 *I compressed the images manually to the point that you don't really see the difference because of the size I'm using the images at. After that I compressed them through <a href="compressor.io">compressor.io</a>. As you can see this made a huge difference in terms of speed and if you compare these images with the old <a href="http://getbootstrap.com/">http://getbootstrap.com/</a> you can't visually see a lot of difference.*
 
 ## Feature #4 - minifying css/js
@@ -49,7 +49,7 @@ Mobile - 89/100
 Desktop - 94/100  
 <img src="screens/6compressmob.png">  
 Mobile - 90/100 
-
+  
 *I used <a href="http://gulpjs.com/">Gulp.js</a> to minify my css/js. Not a whole lot of improvement but every little bit counts.*
 
 ## Feature #5 - webp images
@@ -57,21 +57,26 @@ Mobile - 90/100
 Desktop - 95/100  
 <img src="screens/7webpmob.png">  
 Mobile - 91/100
-
+  
 *Here I used srcset to use webp images whenever you open the website in Chrome. If the browser isn't Chrome it falls back to the old jpgs.*
 
 ## Feature #6 - fontfaceobserver
 <img src="screens/5fontface.png">  
-Before the font is loaded
-<img src="screens/5fontfaceres.png">  
-After the font is loaded
+Before the font is loaded  
 
+<img src="screens/5fontfaceres.png">  
+After the font is loaded  
+  
 *Not a speed improvement but it certainly makes your website better. Fontfaceobserver makes sure you see a fallback font until the custom font is loaded. This way we don't have to see empty font-less spots while loading the website.*
 
 ## Conclusion
 So we wen't from:  
-Desktop - 48/100 to 95/100  
-Mobile - 49/100 to 91/100  
+  
+**Desktop**  
+48/100 to 95/100  
+  
+**Mobile**  
+49/100 to 91/100  
 
 Quite the improvement!
 
