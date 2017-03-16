@@ -79,8 +79,10 @@ So we wen't from:
 49/100 to 91/100  
 
 And when comparing it in terms of seconds on a (very slow) 2G network:  
+
 <img src="./screens/speedold.png">  
 From an excruciating 27 seconds  
+  
 <img src="./screens/speednew.png">  
 To only 13 seconds!
 
